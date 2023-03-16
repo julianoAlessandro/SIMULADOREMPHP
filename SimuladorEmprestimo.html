@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resultado.css">
+    <title>Simulador de Emprestimo</title>
+</head>
+<body>
+
+    <fieldset class="linha">
+         <form action="simulador.php"method="post" >
+            <h1 class="banco3">Seja bem vindo ao Mybank</h1>
+    <h1>SIMULADOR DE EMPRÉSTIMO</h1>
+        <label>Nome:</label>
+        <input type="text" name = "nome"><BR><br>
+            <label class="label2" for ="cliente">Já é o nosso cliente ?</label>
+            <input type="radio" name="cliente" id="cliente" value="SIM">SIM
+            <input  type="radio" name = "cliente" id="cliente" value="NAO">NAO<br>
+            <label for = "score">Digite seu Serasa score:</label>
+            <input type="text" name="score" id="score"><br><br>
+            <label for="emprestimo">Valor do empréstimo</label>
+            <input type="text" name="emprestimo" id="emprestimo" ><br><br>
+            <label for="parcela">Quantidade de Parcelas</label>
+            <select name="parcela" id="parcela"><br>
+                <option value="8">8</option>
+                <option value="12">12</option>
+                <option value="24">24</option>
+                <option value="32">32</option>
+              </select>
+              <label for="seguro">Deseja incluir um seguro desemprego no valor de R$49,99?</label>
+              <input type="checkbox" name="seguro" id="seguro" value="sim" checked><br>
+            <input class="envio2" type="submit" value="SIMULAR EMPRÉSTIMO !">
+            
+                
+            
+        
+
+
+
+    </form>
+    </fieldset>
+
+
+</body>
+</html>

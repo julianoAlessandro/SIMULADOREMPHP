@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+}
+h1{
+    color:black;
+    text-align: center;
+
+}
+body{
+background-image: url(img/deserto2.jpg);
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+fieldset{
+    width: 30%;
+    height: 30%;
+    color:blakc;
+    background-color:gray;
+    border-radius: 4px 4px 4px 4px ;
+    opacity: 0.8;
+    color:black;
+}
+
+label{
+    color:black;
+}
+.envia{
+    width: 45%;
+    height: 55%;
+    color:black;
+    position: relative;
+    left: 24%;
+    background-color: cornflowerblue;
+
+}
+
+input:hover{
+    background-color: cadetblue;
+}
+
+/* efetuar emprestimo 1 tela 
+*/
+.linha{
+    width: 70%;
+    height: 70%;
+    color:blakc;
+    background-color:gray;
+    border-radius: 4px 4px 4px 4px ;
+    opacity: 0.8;
+    color:black;
+
+}
+.banco3{
+    color:red;
+}
+
+.envio2{
+    width: 35%;
+    height: 75%;
+    color:black;
+    position: relative;
+    left: 26%;
+    top:24%;
+    margin:4%;
+    background-color:white;
+
+}
+

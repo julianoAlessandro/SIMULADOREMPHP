@@ -11,7 +11,7 @@ $valorParcela;
 
 
     if($opcao == 'NAO'){
-        if($score  == 0 || $score < 299){
+        if($score  == 0 || $score <= 299){
               $emprestimo   = ($emprestimo * 1.2 *1.0038)  + 35;
              
     
@@ -43,7 +43,7 @@ $valorParcela;
     }
     else{
 
-        $emprestimo  = $emprestimo *  1.03*1.0038 + 35;
+        $emprestimo  = $emprestimo *  1.03*1.0038;
         
       
         if (isset($_POST['seguro'])) {
